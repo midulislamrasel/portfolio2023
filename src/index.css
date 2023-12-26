@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&family=Roboto:wght@300;400&display=swap");
+
+:root {
+  --golobal-font-family: "Exo 2", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  --primary-color: #170550;
+  --secondary-color: #31065a;
+
+  --font-primary-color: #fff;
+  --font-secondary-color: #f86f03;
+  --font-tertiary-color: #461959;
+
+  --font-promary-wight: 600;
+  --font-secondary-wight: 400;
+  --font-tertiary-wight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.primarycolor {
+  --primary-color: #170550;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button,
+input {
+  outline: none;
+  border: none;
+  background: none;
+}
+button {
+  cursor: pointer;
+}
+input,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+input,
+li {
+  font-family: var(--golobal-font-family);
+}
+
+/* ======Container Styles====== */
+.cotainer {
+  width: 100%;
+}
+
+/* =======Flexbox Styles========= */
+/* .flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-direction-col {
+  flex-direction: column;
+}
+.flex-direction-col-revers {
+  flex-direction: column;
+} */
