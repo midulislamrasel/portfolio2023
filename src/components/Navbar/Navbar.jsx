@@ -12,7 +12,7 @@ function Navbar() {
               <Image src={logo}></Image>
             </a>
             <button
-              className="navbar-toggler"
+              className="navbar-toggler "
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarText"
@@ -20,7 +20,7 @@ function Navbar() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon text-white"></span>
             </button>
             <div className="collapse navbar-collapse " id="navbarText">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">

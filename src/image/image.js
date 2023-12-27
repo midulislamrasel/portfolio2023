@@ -1,4 +1,4 @@
-import bannerImage from "../assets/images/Banner Image.png";
+import bannerImage from "../assets/images/BannerImage.png";
 import logo from "../assets/images/logo.png";
 import midul from "../assets/images/midul.png";
 import midul2 from "../assets/images/midul2.jpg";

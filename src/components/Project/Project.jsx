@@ -16,14 +16,30 @@ function Project() {
       <h2 className="text-center py-4 text-white">Portfolio</h2>
       <div className="container">
         <div className="d-flex flex-wrap gap-3 aline-center justify-content-center">
-          <Image width={300} height={250} src={tem1}></Image>
-          <Image width={300} height={250} src={tem2}></Image>
-          <Image width={300} height={250} src={tem3}></Image>
-          <Image width={300} height={250} src={tem4}></Image>
-          <Image width={300} height={250} src={tem5}></Image>
-          <Image width={300} height={250} src={tem6}></Image>
-          <Image width={300} height={250} src={tem7}></Image>
-          <Image width={300} height={250} src={tem8}></Image>
+          <div style={{ while: "200px", height: "150px" }}>
+            <Image style={{ height: "100%", width: "100%" }} src={tem1}></Image>
+          </div>
+          <div style={{ while: "200px", height: "150px" }}>
+            <Image style={{ height: "100%", width: "100%" }} src={tem2}></Image>
+          </div>
+          <div style={{ while: "200px", height: "150px" }}>
+            <Image style={{ height: "100%", width: "100%" }} src={tem3}></Image>
+          </div>
+          <div style={{ while: "200px", height: "150px" }}>
+            <Image style={{ height: "100%", width: "100%" }} src={tem4}></Image>
+          </div>
+          <div style={{ while: "200px", height: "150px" }}>
+            <Image style={{ height: "100%", width: "100%" }} src={tem5}></Image>
+          </div>
+          <div style={{ while: "200px", height: "150px" }}>
+            <Image style={{ height: "100%", width: "100%" }} src={tem6}></Image>
+          </div>
+          <div style={{ while: "200px", height: "150px" }}>
+            <Image style={{ height: "100%", width: "100%" }} src={tem7}></Image>
+          </div>
+          <div style={{ while: "200px", height: "150px" }}>
+            <Image style={{ height: "100%", width: "100%" }} src={tem8}></Image>
+          </div>
         </div>
       </div>
     </div>

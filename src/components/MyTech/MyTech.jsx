@@ -44,7 +44,7 @@ function MyTech() {
             <Image src={bootstrap} />
           </div>
         </div>
-        <div className="d-flex :flex-wrap align-items-center justify-content-between">
+        <div className="d-flex flex-wrap align-items-center justify-content-between">
           <div>
             <Image src={git} />
           </div>

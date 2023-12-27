@@ -11,7 +11,7 @@ function Banner() {
   return (
     <div style={{ backgroundColor: "#31065A" }}>
       <div className="container">
-        <div className="d-flex justify-content-between align-items-center">
+        <div className="  d-flex  justify-content-between align-items-center ">
           <div>
             <h3 style={{ color: "#F86F03" }}>{`Hi, It's me`}</h3>
             <h2 className="text-white">MIDUL ISLAM RASEL</h2>
@@ -48,7 +48,7 @@ function Banner() {
                 backgroundColor: "#F86F03",
                 padding: "9px 44px",
                 borderRadius: "20px",
-                marginTop: "32px",
+                margin: "32px 0px 32px 0px",
                 color: "wheat",
                 fontWeight: "600",
               }}
@@ -58,8 +58,12 @@ function Banner() {
             </button>
           </div>
 
-          <div>
-            <Image src={bannerImage} alt="banner"></Image>
+          <div className="" style={{ height: "100%", width: "100%" }}>
+            <Image
+              style={{ height: "100%", width: "100%" }}
+              src={bannerImage}
+              alt="banner"
+            ></Image>
           </div>
         </div>
       </div>

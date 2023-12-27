@@ -9,11 +9,14 @@ function AboutMe() {
           About <span style={{ color: "#F86F03" }}>Me</span>
         </h1>
         <div
-          className=" d-flex flex-direction-column"
+          className=" d-md-flex flex-direction-column"
           style={{ columnGap: "130px" }}
         >
-          <div>
-            <Image style={{ borderRadius: "15px" }} src={midul3}></Image>
+          <div style={{ borderRadius: "15px", height: "100%", width: "100%" }}>
+            <Image
+              style={{ borderRadius: "15px", height: "100%", width: "100%" }}
+              src={midul3}
+            ></Image>
           </div>
           <div>
             <div

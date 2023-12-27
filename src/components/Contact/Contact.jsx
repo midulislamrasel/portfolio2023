@@ -16,8 +16,8 @@ function Contact() {
       }}
     >
       <div className="container ">
-        <div className=" row">
-          <div className="col-5 d-flex align-items-center justify-content-around ">
+        <div className=" row ">
+          <div className="col-md-5  col-sm-12  d-flex align-items-center justify-content-around ">
             <div className="">
               <li className="fs-4">
                 <FaPhoneAlt /> + 01789563124
@@ -31,7 +31,7 @@ function Contact() {
               </li>
             </div>
           </div>
-          <div className="col-6 text-white">
+          <div className=" col-md-5  col-sm-12 text-white">
             <Form>
               <Form.Group className="mb-3" controlId="formGridAddress1">
                 <Form.Control

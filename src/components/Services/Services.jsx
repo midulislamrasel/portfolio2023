@@ -15,8 +15,8 @@ function Services() {
         >
           My <span style={{ color: "#F86F03" }}>Services</span>
         </h1>
-        <div className="d-flex  gap-4">
-          <div className="bg-white rounded-3 px-5">
+        <div className="d-flex flex-wrap gap-3 justify-content-center">
+          <div className="col-12 col-md-5 col-lg-3 bg-white rounded-3 px-5 ">
             <div className="py-5">
               <Image src={icon1}></Image>
             </div>
@@ -27,7 +27,7 @@ function Services() {
               injected humour
             </p>
           </div>
-          <div className="bg-white rounded-3 px-5">
+          <div className="col-12 col-md-5 col-lg-3 bg-white rounded-3 px-5">
             <div className="py-5">
               <Image src={icon2}></Image>
             </div>
@@ -38,7 +38,7 @@ function Services() {
               injected humour
             </p>
           </div>
-          <div className="bg-white rounded-3 px-5">
+          <div className=" col-12 col-md-5 col-lg-3 bg-white rounded-3 px-5">
             <div className="py-5">
               <Image src={icon}></Image>
             </div>
