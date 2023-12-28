@@ -9,10 +9,11 @@ import {
   tem7,
   tem8,
 } from "../../image/tem_image";
+// import styles from "./Project.module.css";
 
 function Project() {
   return (
-    <div className="pb-5" style={{ backgroundColor: "#31065A" }}>
+    <div className="pb-5 " style={{ backgroundColor: "#31065A" }}>
       <h2 className="text-center py-4 text-white">Portfolio</h2>
       <div className="container">
         <div className="d-flex flex-wrap gap-3 aline-center justify-content-center">

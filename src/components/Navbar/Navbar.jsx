@@ -5,12 +5,14 @@ import { logo } from "../../image/image";
 function Navbar() {
   return (
     <>
-      <div style={{ backgroundColor: "#170550" }}>
+      <div className="bgColorP">
         <nav className="container navbar navbar-expand-lg ">
           <div className="container-fluid">
-            <a className="navbar-brand fs-4 text-light" href="#">
-              <Image src={logo}></Image>
-            </a>
+            <div className="mgR150">
+              <a className="navbar-brand fs-4 text-light " href="#">
+                <Image src={logo}></Image>
+              </a>
+            </div>
             <button
               className="navbar-toggler "
               type="button"
@@ -23,8 +25,8 @@ function Navbar() {
               <span className="navbar-toggler-icon text-white"></span>
             </button>
             <div className="collapse navbar-collapse " id="navbarText">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
-                <li className="nav-item text-light">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 fontSize18 fontWeight600">
+                <li className="nav-item text-light pd15">
                   <a
                     className="nav-link active text-light"
                     aria-current="page"
@@ -33,28 +35,28 @@ function Navbar() {
                     Home
                   </a>
                 </li>
-                <li className="nav-item ">
-                  <a className="nav-link text-light" href="#">
+                <li className="nav-item pd15">
+                  <a className="nav-link text-light " href="#">
                     About Me
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item pd15">
                   <a className="nav-link text-light" href="#">
                     Services
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item pd15">
                   <a className="nav-link text-light" href="#">
                     Portfolio
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item pd15">
                   <a className="nav-link text-light" href="#">
                     Contact
                   </a>
                 </li>
               </ul>
-              <button className=" bg-light  py-1 px-4  rounded text-primary fs-6 fw-medium">
+              <button className=" bgColorW pdButton  borderR20 textColorBtn fontSize18 fw-medium">
                 Hire me
               </button>
             </div>

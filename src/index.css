@@ -68,21 +68,125 @@ li {
   font-family: var(--golobal-font-family);
 }
 
-/* ======Container Styles====== */
-.cotainer {
-  width: 100%;
+.m0 {
+  margin: 0;
+}
+/* =======Font Size====== */
+.fontSize16 {
+  font-size: 16px;
+}
+.fontSize18 {
+  font-size: 18px;
+}
+.fontSize20 {
+  font-size: 20px;
+}
+.fontSize25 {
+  font-size: 25px;
+}
+.fontSize30 {
+  font-size: 30px;
+}
+.fontSize35 {
+  font-size: 35px;
+}
+.fontSize40 {
+  font-size: 40px;
+}
+.fontSize50 {
+  font-size: 50px;
+}
+.fontSize60 {
+  font-size: 60px;
+}
+/* ======Font White====== */
+.fontWeight600 {
+  font-weight: 600;
+}
+.fontWeight700 {
+  font-weight: 700;
+}
+.fontWeight400 {
+  font-weight: 400;
+}
+/* =======Font Family======== */
+.fontFamilyExo {
+  font-family: Exo 2;
 }
 
-/* =======Flexbox Styles========= */
-/* .flex {
-  display: flex;
+/* ==================Color=================== */
+
+.bgColorP {
+  background-color: #170550;
 }
-.flex-wrap {
-  flex-wrap: wrap;
+.bgColorS {
+  background-color: #31065a;
 }
-.flex-direction-col {
-  flex-direction: column;
+.bgColorT {
+  background-color: #f86f03;
 }
-.flex-direction-col-revers {
-  flex-direction: column;
-} */
+
+.bgColorW {
+  background-color: #fff;
+}
+.texColorP {
+  color: #fff;
+}
+.texColorS {
+  color: #f86f03;
+}
+.textColorBtn {
+  color: #461959;
+}
+
+/* =================Padding==================== */
+.pd15 {
+  padding: 15px;
+}
+.pdT15 {
+  padding-top: 15px;
+}
+.pdB15 {
+  padding-bottom: 15px;
+}
+.pdR24 {
+  padding-right: 24px;
+}
+.pd31 {
+  padding: 31px;
+}
+.pdT31 {
+  padding-top: 31px;
+}
+.pdB31 {
+  padding-bottom: 31px;
+}
+.pd36 {
+  padding: 36px 0px 36px 0px;
+}
+.pd76 {
+  padding: 76px;
+}
+.pdT76 {
+  padding-top: 76px;
+}
+.pdB76 {
+  padding-bottom: 76px;
+}
+
+.pdB160 {
+  padding-bottom: 160px;
+}
+.pdButton {
+  padding: 9px 42px;
+}
+
+/* ==============Margin============== */
+.mgR150 {
+  margin-right: 150px;
+}
+
+/* ===========Border Redius=========== */
+.borderR20 {
+  border-radius: 20px;
+}
